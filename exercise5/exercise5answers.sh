@@ -26,7 +26,7 @@ echo "This many lines have a number in them: "
 ####
 # 4) Answer here
 ####
-grep -c '[0-9]+' 1R2X.pdb
+egrep -c '[0-9]+' 1R2X.pdb
 
 
 #-----------------------------------------------------------------------------
@@ -38,7 +38,7 @@ echo "There are this many Serine atoms in the file: "
 ####
 # 5) Answer here
 ####
-grep -c ‘^ATOM[ ]*[0-9]+[ ]*[A-Z]+[ ]*[S][E][R]’ 1R2X.pdb
+egrep -c '^ATOM[ ]*[0-9]+[ ]*[A-Z]+[ ]*[S][E][R]' 1R2X.pdb
 
 echo "Exercise 5 is complete."
 
