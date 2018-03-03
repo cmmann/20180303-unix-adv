@@ -48,7 +48,7 @@ echo "And this many of those lines are unique: "
 
 
 #-----------------------------------------------------------------------------
-# 6) How many files in 20180303-adv-UNIX contain the word 'hello'?
+# 6) How many files in 20180303-unix-adv contain the word 'hello'?
 # 	Hint: What options do you need to find the files with a match?
 #-----------------------------------------------------------------------------
 
