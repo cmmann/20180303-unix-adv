@@ -10,15 +10,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
 echo "your name"
 ##########################LEAVE STUFF BELOW THIS LINE ALONE######################
 check=0
