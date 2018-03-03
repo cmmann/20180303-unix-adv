@@ -19,8 +19,8 @@ echo "'h' Count in first ten lines: "
 head hello.txt | grep -o 'h' | grep -c 'h'
 
 #-----------------------------------------------------------------------------
-# 3) How many total lines are in the song?
-# 4) How many of those lines do NOT contain the word 'hello'?
+# 3) How many total lines are in the song? (ONLY OUTPUT THE NUMBER)
+# 4) How many of those lines do NOT contain the word 'hello'? (Case INSENSITIVE)
 #	Hint: Remember to use the '-i' option to ignore whether 'hello' 
 #		  is capitalized!
 # 5) How many of those lines are UNIQUE?
