@@ -48,7 +48,7 @@ cat hello.txt | sort -u | wc -l
 
 
 #-----------------------------------------------------------------------------
-# 6) How many files in 20180303-adv-UNIX contain the word 'hello'?
+# 6) How many files in 20180303-unix-adv contain the word 'hello'?
 # 	Hint: What options do you need to find the files with a match?
 #-----------------------------------------------------------------------------
 
@@ -56,7 +56,7 @@ echo "There are this many files that contain the word 'heart': "
 ####
 #6. Type your command below this line.
 ####
-grep -ilR 'heart' ~/20180303-adv-unix/ | wc -l 
+grep -ilR 'heart' ~/20180303-unix-adv/ | wc -l 
 
 
 echo "You have completed Exercise 4!"
